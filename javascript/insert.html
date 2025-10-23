@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container" style="background-color: blue; color: bisque;" >
+        <div class="box">this is box1</div>
+        <div class="box">this is box2</div>
+    </div>
+    <script>
+        let divi=document.createElement("div");
+        divi.innerHTML="i was created by <i><u><b>chaitanya</b></i></u>";
+        divi.setAttribute("class","created");
+        // document.querySelector(".container").before(divi);
+        let cont=document.querySelector(".container");
+        cont.insertAdjacentHTML("beforeend","<b>hello <i>everyone</i> i am the <u>strongest</u></b>");
+    </script>
+    <!-- make sure to reasd this notes -->
+</body>
+</html>

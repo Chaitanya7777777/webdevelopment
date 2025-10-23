@@ -1,0 +1,12 @@
+let name="chaiTanya";
+let surname=`gulechha`;
+// console.log("his name is "+name+" "+surname);
+// console.log(`his name is ${name} ${surname}`);
+// console.log(name.slice(2));
+// console.log(name.slice(3,7));
+// console.log(name.replace("chai","tea"));
+// console.log("har\"".length);
+// console.log(name.includes("chaiy"));
+// console.log(surname.startsWith("g"));
+// console.log(surname.endsWith("hha"));
+// console.log(name.toLowerCase());

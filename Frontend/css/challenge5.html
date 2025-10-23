@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .body{
+            background-color: black;
+        }
+        .sticky {
+            height: 12vh;
+            background-color: pink;
+            position: sticky;
+            top: 0;
+        }
+        .main {
+            background-color: green;
+            height: 88vh;
+            display: flex;
+            align-items: center;
+            margin: 1vh 1vw;
+            
+        }
+        .box1{
+            height: 39vh;
+            width: 39vw;
+            background-color: palevioletred;
+            position: relative;
+            margin:5vw ;
+        }
+        .box2{
+            height: 39vh;
+            width: 39vw;
+            background-color: rgb(86, 23, 202);
+            position: relative;
+        }
+        .fixed{
+            background-color: orange;
+            height: 45px;
+            width: 45px;
+            border-radius: 45px;
+            position: fixed;
+            top: 90vh;
+            left: 90vw;
+        }
+        .curved{
+            background-color: silver;
+            height: 20vh;
+            width: 60vw;
+            text-align: center;
+            margin: 5vh 20vw;
+            border-radius: 5vh;
+        }
+        h3{
+            padding: 7vh;
+            font-size: 25px;
+        }
+        footer{
+            height: 12vh;
+            background-color: grey;
+        }
+
+    </style>
+</head>
+
+<body>
+    <nav class="sticky"></nav>
+    <div class="main">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="fixed"></div>
+    </div>
+    <div class="curved">
+        <h3>welcome to this page</h3>
+    </div>
+    <footer></footer>
+
+</body>
+
+</html>
